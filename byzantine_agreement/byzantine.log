@@ -1,0 +1,51 @@
+[1761547185] [Node 1] HTTP server listening on 0.0.0.0:8001
+[1761547185] [Node 0] HTTP server listening on 0.0.0.0:8000
+[1761547185] [Node 2] HTTP server listening on 0.0.0.0:8002
+[1761547185] [Node 1] Received ORDER from commander 0: ATTACK
+[1761547185] [Node 2] Received ORDER from commander 0: ATTACK
+[1761547185] [Node 0] Sent ORDER to 1 (via /order)
+[1761547185] [Node 0] Sent ORDER to 2 (via /order)
+[1761547185] [Node 0] Received FORWARD from 1: ATTACK
+[1761547185] [Node 2] Received FORWARD from 1: ATTACK
+[1761547185] [Node 1] Received FORWARD from 2: RETREAT
+[1761547185] [Node 0] Received FORWARD from 2: RETREAT
+[1761547185] [Node 1] Forwarded order to 0 via /forward
+[1761547185] [Node 2] Forwarded order to 1 via /forward
+[1761547185] [Node 1] Forwarded order to 2 via /forward
+[1761547185] [Node 2] Forwarded order to 0 via /forward
+[1761547187] [Node 1] FINAL DECISION = ATTACK
+[1761547187] [Node 2] FINAL DECISION = ATTACK
+[1761547921] [Node 1] HTTP server listening on 0.0.0.0:8001
+[1761547921] [Node 0] HTTP server listening on 0.0.0.0:8000
+[1761547921] [Node 2] HTTP server listening on 0.0.0.0:8002
+[1761547921] [Node 2] Received ORDER from commander 0: ATTACK
+[1761547921] [Node 1] Received ORDER from commander 0: ATTACK
+[1761547921] [Node 0] Sent ORDER to 2 (via /order)
+[1761547921] [Node 0] Sent ORDER to 1 (via /order)
+[1761547921] [Node 0] Received FORWARD from 1: ATTACK
+[1761547921] [Node 2] Received FORWARD from 1: ATTACK
+[1761547921] [Node 1] Received FORWARD from 2: RETREAT
+[1761547921] [Node 0] Received FORWARD from 2: RETREAT
+[1761547921] [Node 1] Forwarded order to 0 via /forward
+[1761547921] [Node 2] Forwarded order to 1 via /forward
+[1761547921] [Node 1] Forwarded order to 2 via /forward
+[1761547921] [Node 2] Forwarded order to 0 via /forward
+[1761547923] [Node 1] FINAL DECISION = ATTACK
+[1761547923] [Node 2] FINAL DECISION = ATTACK
+[1761548564] [Node 2] HTTP server listening on 0.0.0.0:8002
+[1761548564] [Node 0] HTTP server listening on 0.0.0.0:8000
+[1761548564] [Node 1] HTTP server listening on 0.0.0.0:8001
+[1761548564] [Node 1] Received ORDER from commander 0: ATTACK
+[1761548564] [Node 2] Received ORDER from commander 0: ATTACK
+[1761548564] [Node 0] Sent ORDER to 1 (via /order)
+[1761548564] [Node 0] Sent ORDER to 2 (via /order)
+[1761548564] [Node 0] Received FORWARD from 2: RETREAT
+[1761548564] [Node 2] Received FORWARD from 1: ATTACK
+[1761548564] [Node 1] Received FORWARD from 2: RETREAT
+[1761548564] [Node 0] Received FORWARD from 1: ATTACK
+[1761548564] [Node 2] Forwarded order to 0 via /forward
+[1761548564] [Node 1] Forwarded order to 2 via /forward
+[1761548564] [Node 2] Forwarded order to 1 via /forward
+[1761548564] [Node 1] Forwarded order to 0 via /forward
+[1761548566] [Node 1] FINAL DECISION = ATTACK
+[1761548566] [Node 2] FINAL DECISION = ATTACK
