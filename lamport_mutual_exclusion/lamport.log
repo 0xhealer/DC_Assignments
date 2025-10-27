@@ -1,0 +1,409 @@
+[1761058224] [Node 1] Server started on 0.0.0.0:8001
+[1761058224] [Node 2] Server started on 0.0.0.0:8002
+[1761058224] [Node 0] Server started on 0.0.0.0:8000
+[1761058225] [Node 0] Broadcasting REQUEST ts=1
+[1761058225] [Node 1] Received REQUEST from 0 ts=1
+[1761058225] [Node 2] Received REQUEST from 0 ts=1
+[1761058225] [Node 0] Received REPLY from 1
+[1761058225] [Node 0] Received REPLY from 2
+[1761058225] [Node 0] Entering Critical Section
+[1761058226] [Node 0] Exiting Critical Section
+[1761058226] [Node 1] Broadcasting REQUEST ts=3
+[1761058226] [Node 0] Received REQUEST from 1 ts=3
+[1761058226] [Node 2] Received REQUEST from 1 ts=3
+[1761058226] [Node 1] Received REPLY from 0
+[1761058226] [Node 1] Received REPLY from 2
+[1761058227] [Node 2] Broadcasting REQUEST ts=5
+[1761058227] [Node 1] Received REQUEST from 2 ts=5
+[1761058227] [Node 0] Received REQUEST from 2 ts=5
+[1761058227] [Node 2] Received REPLY from 1
+[1761058227] [Node 2] Received REPLY from 0
+[1761058230] [Node 1] Timeout waiting for replies
+[1761058231] [Node 2] Timeout waiting for replies
+[1761059393] [Node 3] Server started on 0.0.0.0:8003
+[1761059393] [Node 2] Server started on 0.0.0.0:8002
+[1761059393] [Node 1] Server started on 0.0.0.0:8001
+[1761059393] [Node 0] Server started on 0.0.0.0:8000
+[1761059394] [Node 0] Broadcasting REQUEST ts=1
+[1761059394] [Node 2] Received REQUEST from 0 ts=1
+[1761059394] [Node 1] Received REQUEST from 0 ts=1
+[1761059394] [Node 3] Received REQUEST from 0 ts=1
+[1761059394] [Node 0] Received REPLY from 2
+[1761059394] [Node 0] Received REPLY from 1
+[1761059394] [Node 0] Received REPLY from 3
+[1761059394] [Node 0] Entering Critical Section
+[1761059395] [Node 0] Exiting Critical Section
+[1761059395] [Node 1] Broadcasting REQUEST ts=3
+[1761059395] [Node 0] Received REQUEST from 1 ts=3
+[1761059395] [Node 2] Received REQUEST from 1 ts=3
+[1761059395] [Node 1] Received REPLY from 0
+[1761059395] [Node 3] Received REQUEST from 1 ts=3
+[1761059395] [Node 1] Received REPLY from 2
+[1761059395] [Node 1] Received REPLY from 3
+[1761059396] [Node 2] Broadcasting REQUEST ts=5
+[1761059396] [Node 1] Received REQUEST from 2 ts=5
+[1761059396] [Node 0] Received REQUEST from 2 ts=5
+[1761059396] [Node 3] Received REQUEST from 2 ts=5
+[1761059396] [Node 2] Received REPLY from 1
+[1761059396] [Node 2] Received REPLY from 0
+[1761059396] [Node 2] Received REPLY from 3
+[1761059397] [Node 3] Broadcasting REQUEST ts=7
+[1761059397] [Node 0] Received REQUEST from 3 ts=7
+[1761059397] [Node 1] Received REQUEST from 3 ts=7
+[1761059397] [Node 3] Received REPLY from 0
+[1761059397] [Node 2] Received REQUEST from 3 ts=7
+[1761059397] [Node 3] Received REPLY from 1
+[1761059397] [Node 3] Received REPLY from 2
+[1761059399] [Node 1] Timeout waiting for replies
+[1761059400] [Node 2] Timeout waiting for replies
+[1761059401] [Node 3] Timeout waiting for replies
+[1761487256] [Node 3] Server started on 0.0.0.0:8003
+[1761487256] [Node 0] Server started on 0.0.0.0:8000
+[1761487256] [Node 1] Server started on 0.0.0.0:8001
+[1761487256] [Node 2] Server started on 0.0.0.0:8002
+[1761487257] [Node 0] Broadcasting REQUEST ts=1 for resource=A
+[1761487257] [Node 3] Received REQUEST from 0 ts=1 for resource=A
+[1761487257] [Node 1] Received REQUEST from 0 ts=1 for resource=A
+[1761487257] [Node 2] Received REQUEST from 0 ts=1 for resource=A
+[1761487257] [Node 0] Received REPLY from 3 for resource=A
+[1761487257] [Node 0] Received REPLY from 2 for resource=A
+[1761487257] [Node 0] Received REPLY from 1 for resource=A
+[1761487257] [Node 0] Entering Critical Section for resource=A
+[1761487258] [Node 0] Exiting Critical Section for resource=A
+[1761487258] [Node 0] Broadcasting REQUEST ts=2 for resource=B
+[1761487258] [Node 2] Received REQUEST from 0 ts=2 for resource=B
+[1761487258] [Node 1] Received REQUEST from 0 ts=2 for resource=B
+[1761487258] [Node 3] Received REQUEST from 0 ts=2 for resource=B
+[1761487258] [Node 0] Received REPLY from 2 for resource=B
+[1761487258] [Node 0] Received REPLY from 1 for resource=B
+[1761487258] [Node 0] Received REPLY from 3 for resource=B
+[1761487258] [Node 0] Entering Critical Section for resource=B
+[1761487258] [Node 1] Broadcasting REQUEST ts=4 for resource=A
+[1761487258] [Node 0] Received REQUEST from 1 ts=4 for resource=A
+[1761487258] [Node 3] Received REQUEST from 1 ts=4 for resource=A
+[1761487258] [Node 2] Received REQUEST from 1 ts=4 for resource=A
+[1761487258] [Node 1] Received REPLY from 0 for resource=A
+[1761487258] [Node 1] Received REPLY from 2 for resource=A
+[1761487258] [Node 1] Received REPLY from 3 for resource=A
+[1761487258] [Node 0] Exiting Critical Section for resource=B
+[1761487259] [Node 2] Broadcasting REQUEST ts=6 for resource=A
+[1761487259] [Node 1] Received REQUEST from 2 ts=6 for resource=A
+[1761487259] [Node 0] Received REQUEST from 2 ts=6 for resource=A
+[1761487259] [Node 3] Received REQUEST from 2 ts=6 for resource=A
+[1761487259] [Node 2] Received REPLY from 1 for resource=A
+[1761487259] [Node 2] Received REPLY from 0 for resource=A
+[1761487259] [Node 2] Received REPLY from 3 for resource=A
+[1761487260] [Node 3] Broadcasting REQUEST ts=8 for resource=A
+[1761487260] [Node 0] Received REQUEST from 3 ts=8 for resource=A
+[1761487260] [Node 1] Received REQUEST from 3 ts=8 for resource=A
+[1761487260] [Node 2] Received REQUEST from 3 ts=8 for resource=A
+[1761487260] [Node 3] Received REPLY from 0 for resource=A
+[1761487260] [Node 3] Received REPLY from 1 for resource=A
+[1761487260] [Node 3] Received REPLY from 2 for resource=A
+[1761487265] [Node 1] Timeout waiting for replies
+[1761487265] [Node 1] Broadcasting REQUEST ts=10 for resource=B
+[1761487265] [Node 2] Received REQUEST from 1 ts=10 for resource=B
+[1761487265] [Node 3] Received REQUEST from 1 ts=10 for resource=B
+[1761487265] [Node 0] Received REQUEST from 1 ts=10 for resource=B
+[1761487265] [Node 1] Received REPLY from 3 for resource=B
+[1761487265] [Node 1] Received REPLY from 2 for resource=B
+[1761487265] [Node 1] Received REPLY from 0 for resource=B
+[1761487266] [Node 2] Timeout waiting for replies
+[1761487266] [Node 2] Broadcasting REQUEST ts=12 for resource=B
+[1761487266] [Node 0] Received REQUEST from 2 ts=12 for resource=B
+[1761487266] [Node 3] Received REQUEST from 2 ts=12 for resource=B
+[1761487266] [Node 1] Received REQUEST from 2 ts=12 for resource=B
+[1761487266] [Node 2] Received REPLY from 0 for resource=B
+[1761487266] [Node 2] Received REPLY from 3 for resource=B
+[1761487266] [Node 2] Received REPLY from 1 for resource=B
+[1761487267] [Node 3] Timeout waiting for replies
+[1761487267] [Node 3] Broadcasting REQUEST ts=14 for resource=B
+[1761487267] [Node 1] Received REQUEST from 3 ts=14 for resource=B
+[1761487267] [Node 0] Received REQUEST from 3 ts=14 for resource=B
+[1761487267] [Node 2] Received REQUEST from 3 ts=14 for resource=B
+[1761487267] [Node 3] Received REPLY from 1 for resource=B
+[1761487267] [Node 3] Received REPLY from 0 for resource=B
+[1761487267] [Node 3] Received REPLY from 2 for resource=B
+[1761487272] [Node 1] Timeout waiting for replies
+[1761487273] [Node 2] Timeout waiting for replies
+[1761487274] [Node 3] Timeout waiting for replies
+[1761487961] [Node 2] Server started on 0.0.0.0:8002
+[1761487961] [Node 1] Server started on 0.0.0.0:8001
+[1761487961] [Node 3] Server started on 0.0.0.0:8003
+[1761487961] [Node 0] Server started on 0.0.0.0:8000
+[1761487962] [Node 0] Broadcasting REQUEST ts=1 for resource=A
+[1761487962] [Node 1] Received REQUEST from 0 ts=1 for resource=A
+[1761487962] [Node 3] Received REQUEST from 0 ts=1 for resource=A
+[1761487962] [Node 2] Received REQUEST from 0 ts=1 for resource=A
+[1761487962] [Node 0] Received REPLY from 1 for resource=A
+[1761487962] [Node 0] Received REPLY from 2 for resource=A
+[1761487962] [Node 0] Received REPLY from 3 for resource=A
+[1761487963] [Node 0] Entering Critical Section for resource=A
+[1761487963] [Node 0] Exiting Critical Section for resource=A
+[1761487963] [Node 0] Broadcasting REQUEST ts=2 for resource=B
+[1761487963] [Node 2] Received REQUEST from 0 ts=2 for resource=B
+[1761487963] [Node 1] Received REQUEST from 0 ts=2 for resource=B
+[1761487963] [Node 3] Received REQUEST from 0 ts=2 for resource=B
+[1761487963] [Node 0] Received REPLY from 2 for resource=B
+[1761487963] [Node 0] Received REPLY from 1 for resource=B
+[1761487963] [Node 0] Received REPLY from 3 for resource=B
+[1761487963] [Node 0] Entering Critical Section for resource=B
+[1761487963] [Node 1] Broadcasting REQUEST ts=4 for resource=A
+[1761487963] [Node 0] Received REQUEST from 1 ts=4 for resource=A
+[1761487963] [Node 2] Received REQUEST from 1 ts=4 for resource=A
+[1761487963] [Node 3] Received REQUEST from 1 ts=4 for resource=A
+[1761487963] [Node 1] Received REPLY from 0 for resource=A
+[1761487963] [Node 1] Received REPLY from 3 for resource=A
+[1761487963] [Node 1] Received REPLY from 2 for resource=A
+[1761487964] [Node 0] Exiting Critical Section for resource=B
+[1761487964] [Node 2] Broadcasting REQUEST ts=6 for resource=A
+[1761487964] [Node 0] Received REQUEST from 2 ts=6 for resource=A
+[1761487964] [Node 1] Received REQUEST from 2 ts=6 for resource=A
+[1761487964] [Node 3] Received REQUEST from 2 ts=6 for resource=A
+[1761487964] [Node 2] Received REPLY from 1 for resource=A
+[1761487964] [Node 2] Received REPLY from 0 for resource=A
+[1761487964] [Node 2] Received REPLY from 3 for resource=A
+[1761487965] [Node 3] Broadcasting REQUEST ts=8 for resource=A
+[1761487965] [Node 2] Received REQUEST from 3 ts=8 for resource=A
+[1761487965] [Node 0] Received REQUEST from 3 ts=8 for resource=A
+[1761487965] [Node 1] Received REQUEST from 3 ts=8 for resource=A
+[1761487965] [Node 3] Received REPLY from 2 for resource=A
+[1761487965] [Node 3] Received REPLY from 0 for resource=A
+[1761487965] [Node 3] Received REPLY from 1 for resource=A
+[1761487971] [Node 1] Timeout waiting for replies
+[1761487971] [Node 1] Broadcasting REQUEST ts=10 for resource=B
+[1761487971] [Node 2] Received REQUEST from 1 ts=10 for resource=B
+[1761487971] [Node 0] Received REQUEST from 1 ts=10 for resource=B
+[1761487971] [Node 3] Received REQUEST from 1 ts=10 for resource=B
+[1761487971] [Node 1] Received REPLY from 2 for resource=B
+[1761487971] [Node 1] Received REPLY from 0 for resource=B
+[1761487971] [Node 1] Received REPLY from 3 for resource=B
+[1761487972] [Node 2] Timeout waiting for replies
+[1761487972] [Node 2] Broadcasting REQUEST ts=12 for resource=B
+[1761487972] [Node 1] Received REQUEST from 2 ts=12 for resource=B
+[1761487972] [Node 3] Received REQUEST from 2 ts=12 for resource=B
+[1761487972] [Node 0] Received REQUEST from 2 ts=12 for resource=B
+[1761487972] [Node 2] Received REPLY from 1 for resource=B
+[1761487972] [Node 2] Received REPLY from 3 for resource=B
+[1761487972] [Node 2] Received REPLY from 0 for resource=B
+[1761487973] [Node 3] Timeout waiting for replies
+[1761487973] [Node 3] Broadcasting REQUEST ts=14 for resource=B
+[1761487973] [Node 1] Received REQUEST from 3 ts=14 for resource=B
+[1761487973] [Node 2] Received REQUEST from 3 ts=14 for resource=B
+[1761487973] [Node 0] Received REQUEST from 3 ts=14 for resource=B
+[1761487973] [Node 3] Received REPLY from 1 for resource=B
+[1761487973] [Node 3] Received REPLY from 2 for resource=B
+[1761487973] [Node 3] Received REPLY from 0 for resource=B
+[1761487978] [Node 1] Timeout waiting for replies
+[1761487979] [Node 2] Timeout waiting for replies
+[1761487980] [Node 3] Timeout waiting for replies
+[1761544359] [Node 2] Server started on 0.0.0.0:8002
+[1761544359] [Node 0] Server started on 0.0.0.0:8000
+[1761544359] [Node 1] Server started on 0.0.0.0:8001
+[1761544359] [Node 3] Server started on 0.0.0.0:8003
+[1761544360] [Node 0] Broadcasting REQUEST ts=1 for resource=A
+[1761544360] [Node 1] Received REQUEST from 0 ts=1 for resource=A
+[1761544360] [Node 3] Received REQUEST from 0 ts=1 for resource=A
+[1761544360] [Node 2] Received REQUEST from 0 ts=1 for resource=A
+[1761544360] [Node 0] Received REPLY from 1 for resource=A
+[1761544360] [Node 0] Received REPLY from 3 for resource=A
+[1761544360] [Node 0] Received REPLY from 2 for resource=A
+[1761544360] [Node 0] Entering Critical Section for resource=A
+[1761544361] [Node 0] Exiting Critical Section for resource=A
+[1761544361] [Node 0] Broadcasting REQUEST ts=2 for resource=B
+[1761544361] [Node 1] Received REQUEST from 0 ts=2 for resource=B
+[1761544361] [Node 3] Received REQUEST from 0 ts=2 for resource=B
+[1761544361] [Node 2] Received REQUEST from 0 ts=2 for resource=B
+[1761544361] [Node 0] Received REPLY from 1 for resource=B
+[1761544361] [Node 0] Received REPLY from 3 for resource=B
+[1761544361] [Node 0] Received REPLY from 2 for resource=B
+[1761544361] [Node 0] Entering Critical Section for resource=B
+[1761544361] [Node 1] Broadcasting REQUEST ts=4 for resource=A
+[1761544361] [Node 0] Received REQUEST from 1 ts=4 for resource=A
+[1761544361] [Node 2] Received REQUEST from 1 ts=4 for resource=A
+[1761544361] [Node 3] Received REQUEST from 1 ts=4 for resource=A
+[1761544361] [Node 1] Received REPLY from 0 for resource=A
+[1761544361] [Node 1] Received REPLY from 3 for resource=A
+[1761544361] [Node 1] Received REPLY from 2 for resource=A
+[1761544361] [Node 0] Exiting Critical Section for resource=B
+[1761544362] [Node 2] Broadcasting REQUEST ts=6 for resource=A
+[1761544362] [Node 0] Received REQUEST from 2 ts=6 for resource=A
+[1761544362] [Node 1] Received REQUEST from 2 ts=6 for resource=A
+[1761544362] [Node 3] Received REQUEST from 2 ts=6 for resource=A
+[1761544362] [Node 2] Received REPLY from 0 for resource=A
+[1761544362] [Node 2] Received REPLY from 1 for resource=A
+[1761544362] [Node 2] Received REPLY from 3 for resource=A
+[1761544363] [Node 3] Broadcasting REQUEST ts=8 for resource=A
+[1761544363] [Node 0] Received REQUEST from 3 ts=8 for resource=A
+[1761544363] [Node 1] Received REQUEST from 3 ts=8 for resource=A
+[1761544363] [Node 2] Received REQUEST from 3 ts=8 for resource=A
+[1761544363] [Node 3] Received REPLY from 0 for resource=A
+[1761544363] [Node 3] Received REPLY from 1 for resource=A
+[1761544363] [Node 3] Received REPLY from 2 for resource=A
+[1761544368] [Node 1] Timeout waiting for replies
+[1761544368] [Node 1] Broadcasting REQUEST ts=10 for resource=B
+[1761544368] [Node 3] Received REQUEST from 1 ts=10 for resource=B
+[1761544368] [Node 0] Received REQUEST from 1 ts=10 for resource=B
+[1761544368] [Node 2] Received REQUEST from 1 ts=10 for resource=B
+[1761544368] [Node 1] Received REPLY from 3 for resource=B
+[1761544368] [Node 1] Received REPLY from 0 for resource=B
+[1761544368] [Node 1] Received REPLY from 2 for resource=B
+[1761544369] [Node 2] Timeout waiting for replies
+[1761544370] [Node 2] Broadcasting REQUEST ts=12 for resource=B
+[1761544370] [Node 0] Received REQUEST from 2 ts=12 for resource=B
+[1761544370] [Node 1] Received REQUEST from 2 ts=12 for resource=B
+[1761544370] [Node 3] Received REQUEST from 2 ts=12 for resource=B
+[1761544370] [Node 2] Received REPLY from 0 for resource=B
+[1761544370] [Node 2] Received REPLY from 1 for resource=B
+[1761544370] [Node 2] Received REPLY from 3 for resource=B
+[1761544370] [Node 3] Timeout waiting for replies
+[1761544371] [Node 3] Broadcasting REQUEST ts=14 for resource=B
+[1761544371] [Node 0] Received REQUEST from 3 ts=14 for resource=B
+[1761544371] [Node 2] Received REQUEST from 3 ts=14 for resource=B
+[1761544371] [Node 1] Received REQUEST from 3 ts=14 for resource=B
+[1761544371] [Node 3] Received REPLY from 0 for resource=B
+[1761544371] [Node 3] Received REPLY from 2 for resource=B
+[1761544371] [Node 3] Received REPLY from 1 for resource=B
+[1761544376] [Node 1] Timeout waiting for replies
+[1761544377] [Node 2] Timeout waiting for replies
+[1761544378] [Node 3] Timeout waiting for replies
+[1761544787] [Node 1] Server started on 0.0.0.0:8001
+[1761544787] [Node 2] Server started on 0.0.0.0:8002
+[1761544787] [Node 0] Server started on 0.0.0.0:8000
+[1761544787] [Node 3] Server started on 0.0.0.0:8003
+[1761544788] [Node 0] Broadcasting REQUEST ts=1 for resource=A
+[1761544788] [Node 3] Received REQUEST from 0 ts=1 for resource=A
+[1761544788] [Node 2] Received REQUEST from 0 ts=1 for resource=A
+[1761544788] [Node 1] Received REQUEST from 0 ts=1 for resource=A
+[1761544788] [Node 0] Received REPLY from 3 for resource=A
+[1761544788] [Node 0] Received REPLY from 1 for resource=A
+[1761544788] [Node 0] Received REPLY from 2 for resource=A
+[1761544788] [Node 0] Entering Critical Section for resource=A
+[1761544789] [Node 0] Exiting Critical Section for resource=A
+[1761544789] [Node 0] Broadcasting REQUEST ts=2 for resource=B
+[1761544789] [Node 1] Received REQUEST from 0 ts=2 for resource=B
+[1761544789] [Node 3] Received REQUEST from 0 ts=2 for resource=B
+[1761544789] [Node 2] Received REQUEST from 0 ts=2 for resource=B
+[1761544789] [Node 0] Received REPLY from 1 for resource=B
+[1761544789] [Node 0] Received REPLY from 3 for resource=B
+[1761544789] [Node 0] Received REPLY from 2 for resource=B
+[1761544789] [Node 0] Entering Critical Section for resource=B
+[1761544789] [Node 1] Broadcasting REQUEST ts=4 for resource=A
+[1761544789] [Node 0] Received REQUEST from 1 ts=4 for resource=A
+[1761544789] [Node 2] Received REQUEST from 1 ts=4 for resource=A
+[1761544789] [Node 3] Received REQUEST from 1 ts=4 for resource=A
+[1761544789] [Node 1] Received REPLY from 0 for resource=A
+[1761544789] [Node 1] Received REPLY from 2 for resource=A
+[1761544789] [Node 1] Received REPLY from 3 for resource=A
+[1761544789] [Node 0] Exiting Critical Section for resource=B
+[1761544790] [Node 2] Broadcasting REQUEST ts=6 for resource=A
+[1761544790] [Node 1] Received REQUEST from 2 ts=6 for resource=A
+[1761544790] [Node 0] Received REQUEST from 2 ts=6 for resource=A
+[1761544790] [Node 3] Received REQUEST from 2 ts=6 for resource=A
+[1761544790] [Node 2] Received REPLY from 1 for resource=A
+[1761544790] [Node 2] Received REPLY from 0 for resource=A
+[1761544790] [Node 2] Received REPLY from 3 for resource=A
+[1761544791] [Node 3] Broadcasting REQUEST ts=8 for resource=A
+[1761544791] [Node 0] Received REQUEST from 3 ts=8 for resource=A
+[1761544791] [Node 2] Received REQUEST from 3 ts=8 for resource=A
+[1761544791] [Node 1] Received REQUEST from 3 ts=8 for resource=A
+[1761544791] [Node 3] Received REPLY from 0 for resource=A
+[1761544791] [Node 3] Received REPLY from 2 for resource=A
+[1761544791] [Node 3] Received REPLY from 1 for resource=A
+[1761544796] [Node 1] Timeout waiting for replies
+[1761544797] [Node 1] Broadcasting REQUEST ts=10 for resource=B
+[1761544797] [Node 0] Received REQUEST from 1 ts=10 for resource=B
+[1761544797] [Node 2] Received REQUEST from 1 ts=10 for resource=B
+[1761544797] [Node 3] Received REQUEST from 1 ts=10 for resource=B
+[1761544797] [Node 1] Received REPLY from 0 for resource=B
+[1761544797] [Node 1] Received REPLY from 2 for resource=B
+[1761544797] [Node 1] Received REPLY from 3 for resource=B
+[1761544797] [Node 2] Timeout waiting for replies
+[1761544798] [Node 2] Broadcasting REQUEST ts=12 for resource=B
+[1761544798] [Node 0] Received REQUEST from 2 ts=12 for resource=B
+[1761544798] [Node 1] Received REQUEST from 2 ts=12 for resource=B
+[1761544798] [Node 3] Received REQUEST from 2 ts=12 for resource=B
+[1761544798] [Node 2] Received REPLY from 0 for resource=B
+[1761544798] [Node 2] Received REPLY from 1 for resource=B
+[1761544798] [Node 2] Received REPLY from 3 for resource=B
+[1761544798] [Node 3] Timeout waiting for replies
+[1761544799] [Node 3] Broadcasting REQUEST ts=14 for resource=B
+[1761544799] [Node 2] Received REQUEST from 3 ts=14 for resource=B
+[1761544799] [Node 0] Received REQUEST from 3 ts=14 for resource=B
+[1761544799] [Node 1] Received REQUEST from 3 ts=14 for resource=B
+[1761544799] [Node 3] Received REPLY from 2 for resource=B
+[1761544799] [Node 3] Received REPLY from 0 for resource=B
+[1761544799] [Node 3] Received REPLY from 1 for resource=B
+[1761544804] [Node 1] Timeout waiting for replies
+[1761544805] [Node 2] Timeout waiting for replies
+[1761544806] [Node 3] Timeout waiting for replies
+[1761546054] [Node 2] Server started on 0.0.0.0:8002
+[1761546054] [Node 0] Server started on 0.0.0.0:8000
+[1761546054] [Node 1] Server started on 0.0.0.0:8001
+[1761546054] [Node 3] Server started on 0.0.0.0:8003
+[1761546055] [Node 0] Broadcasting REQUEST ts=1 for resource=A
+[1761546055] [Node 1] Received REQUEST from 0 ts=1 for resource=A
+[1761546055] [Node 2] Received REQUEST from 0 ts=1 for resource=A
+[1761546055] [Node 3] Received REQUEST from 0 ts=1 for resource=A
+[1761546055] [Node 0] Received REPLY from 1 for resource=A
+[1761546055] [Node 0] Received REPLY from 2 for resource=A
+[1761546055] [Node 0] Received REPLY from 3 for resource=A
+[1761546055] [Node 0] Entering Critical Section for resource=A
+[1761546055] [Node 0] Exiting Critical Section for resource=A
+[1761546056] [Node 0] Broadcasting REQUEST ts=2 for resource=B
+[1761546056] [Node 1] Received REQUEST from 0 ts=2 for resource=B
+[1761546056] [Node 2] Received REQUEST from 0 ts=2 for resource=B
+[1761546056] [Node 3] Received REQUEST from 0 ts=2 for resource=B
+[1761546056] [Node 0] Received REPLY from 1 for resource=B
+[1761546056] [Node 0] Received REPLY from 2 for resource=B
+[1761546056] [Node 0] Received REPLY from 3 for resource=B
+[1761546056] [Node 0] Entering Critical Section for resource=B
+[1761546056] [Node 1] Broadcasting REQUEST ts=4 for resource=A
+[1761546056] [Node 0] Received REQUEST from 1 ts=4 for resource=A
+[1761546056] [Node 2] Received REQUEST from 1 ts=4 for resource=A
+[1761546056] [Node 3] Received REQUEST from 1 ts=4 for resource=A
+[1761546056] [Node 1] Received REPLY from 0 for resource=A
+[1761546056] [Node 1] Received REPLY from 3 for resource=A
+[1761546056] [Node 1] Received REPLY from 2 for resource=A
+[1761546056] [Node 0] Exiting Critical Section for resource=B
+[1761546057] [Node 2] Broadcasting REQUEST ts=6 for resource=A
+[1761546057] [Node 1] Received REQUEST from 2 ts=6 for resource=A
+[1761546057] [Node 0] Received REQUEST from 2 ts=6 for resource=A
+[1761546057] [Node 3] Received REQUEST from 2 ts=6 for resource=A
+[1761546057] [Node 2] Received REPLY from 1 for resource=A
+[1761546057] [Node 2] Received REPLY from 0 for resource=A
+[1761546057] [Node 2] Received REPLY from 3 for resource=A
+[1761546058] [Node 3] Broadcasting REQUEST ts=8 for resource=A
+[1761546058] [Node 0] Received REQUEST from 3 ts=8 for resource=A
+[1761546058] [Node 1] Received REQUEST from 3 ts=8 for resource=A
+[1761546058] [Node 2] Received REQUEST from 3 ts=8 for resource=A
+[1761546058] [Node 3] Received REPLY from 0 for resource=A
+[1761546058] [Node 3] Received REPLY from 1 for resource=A
+[1761546058] [Node 3] Received REPLY from 2 for resource=A
+[1761546063] [Node 1] Timeout waiting for replies
+[1761546063] [Node 1] Broadcasting REQUEST ts=10 for resource=B
+[1761546063] [Node 2] Received REQUEST from 1 ts=10 for resource=B
+[1761546063] [Node 3] Received REQUEST from 1 ts=10 for resource=B
+[1761546063] [Node 0] Received REQUEST from 1 ts=10 for resource=B
+[1761546063] [Node 1] Received REPLY from 2 for resource=B
+[1761546063] [Node 1] Received REPLY from 3 for resource=B
+[1761546063] [Node 1] Received REPLY from 0 for resource=B
+[1761546064] [Node 2] Timeout waiting for replies
+[1761546064] [Node 2] Broadcasting REQUEST ts=12 for resource=B
+[1761546064] [Node 0] Received REQUEST from 2 ts=12 for resource=B
+[1761546064] [Node 3] Received REQUEST from 2 ts=12 for resource=B
+[1761546064] [Node 1] Received REQUEST from 2 ts=12 for resource=B
+[1761546064] [Node 2] Received REPLY from 0 for resource=B
+[1761546064] [Node 2] Received REPLY from 3 for resource=B
+[1761546064] [Node 2] Received REPLY from 1 for resource=B
+[1761546065] [Node 3] Timeout waiting for replies
+[1761546065] [Node 3] Broadcasting REQUEST ts=14 for resource=B
+[1761546065] [Node 1] Received REQUEST from 3 ts=14 for resource=B
+[1761546065] [Node 0] Received REQUEST from 3 ts=14 for resource=B
+[1761546065] [Node 2] Received REQUEST from 3 ts=14 for resource=B
+[1761546065] [Node 3] Received REPLY from 1 for resource=B
+[1761546065] [Node 3] Received REPLY from 0 for resource=B
+[1761546065] [Node 3] Received REPLY from 2 for resource=B
+[1761546070] [Node 1] Timeout waiting for replies
+[1761546071] [Node 2] Timeout waiting for replies
+[1761546072] [Node 3] Timeout waiting for replies
